@@ -7,7 +7,7 @@ class App extends Component {
   };
   cuenta = (event) => {
     this.setState({
-      contador: event.target.value.length
+      contador: event.target.value.length,
     });
   };
   render() {
